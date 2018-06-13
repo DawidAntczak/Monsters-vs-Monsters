@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: fc48a706e314e8e4caa4b42149491a0c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: npc_gardening_vendor__x1_talk_png_1354831002_0
+    21300002: npc_gardening_vendor__x1_talk_png_1354831002_1
+    21300004: npc_gardening_vendor__x1_talk_png_1354831002_2
+    21300006: npc_gardening_vendor__x1_talk_png_1354831002_3
+    21300008: npc_gardening_vendor__x1_talk_png_1354831002_4
+    21300010: npc_gardening_vendor__x1_talk_png_1354831002_5
+    21300012: npc_gardening_vendor__x1_talk_png_1354831002_6
+    21300014: npc_gardening_vendor__x1_talk_png_1354831002_7
+    21300016: npc_gardening_vendor__x1_talk_png_1354831002_8
+    21300018: npc_gardening_vendor__x1_talk_png_1354831002_9
+    21300020: npc_gardening_vendor__x1_talk_png_1354831002_10
+    21300022: npc_gardening_vendor__x1_talk_png_1354831002_11
+    21300024: npc_gardening_vendor__x1_talk_png_1354831002_12
+    21300026: npc_gardening_vendor__x1_talk_png_1354831002_13
+    21300028: npc_gardening_vendor__x1_talk_png_1354831002_14
+    21300030: npc_gardening_vendor__x1_talk_png_1354831002_15
+    21300032: npc_gardening_vendor__x1_talk_png_1354831002_16
+    21300034: npc_gardening_vendor__x1_talk_png_1354831002_17
+    21300036: npc_gardening_vendor__x1_talk_png_1354831002_18
+    21300038: npc_gardening_vendor__x1_talk_png_1354831002_19
+    21300040: npc_gardening_vendor__x1_talk_png_1354831002_20
+    21300042: npc_gardening_vendor__x1_talk_png_1354831002_21
+    21300044: npc_gardening_vendor__x1_talk_png_1354831002_22
+    21300046: npc_gardening_vendor__x1_talk_png_1354831002_23
+    21300048: npc_gardening_vendor__x1_talk_png_1354831002_24
+    21300050: npc_gardening_vendor__x1_talk_png_1354831002_25
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  pushPullDilation: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 990
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bd4ae09bbe9f841b251e759f358ce2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 990
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93dd0770eb52448aa6c6612c04e7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 990
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbd34871e2b9dc4aa030a5e58126643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 990
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113e5c264d6ccae4388619f08c9aeb19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_4
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 990
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12543dd770dd33e43aa0d782799a6d5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 792
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ece43a2a500d64439694324206e4028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 792
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d91d8dbe24b1e9459b4f0be33d60e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_7
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 792
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a23cec88fff6e4d89b4e09580bf81c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 792
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28153917af5917244b77085284f713d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 792
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5627be87f2c700244a4b27ee3c950f04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 594
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4149512c1f7f249ac9de5697f7f5d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 594
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63609f2c532e5904d841622d943cbfe0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_12
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 594
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888528906ddbac341adeded2f4857c37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 594
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd45ad0100dcb44ea4c375ffdd472dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_14
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 594
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19d231a405d0d84094d43aa217b9e1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 396
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fbb56c10a0a294f9627c3558dbe877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 396
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79244f972687314185d3346f901ef69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 396
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deb8c85dbe4395488ea67156d77cdaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 396
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53281fc6551588240904085c5a434d55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 396
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c1d4c79a6b6914796da5e599f75b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b489d61606abf4db9118652f197602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2097210b0d6ac934ca559feda86e2ded
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_22
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8d55b4f0f362a4190d96a9516f5423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_23
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a708bfa4f28428c4c97117b37ebb4f9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_24
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c5713bcc020e140898a045046e3be6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_talk_png_1354831002_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df44b19dd30b3d94ebd59674e8c0418b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b2c7d0b16f52bf145971b635142e9036
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

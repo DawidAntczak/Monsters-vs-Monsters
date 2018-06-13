@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1566109328695522}
+  m_IsPrefabAsset: 1
+--- !u!1 &1566109328695522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4719120925082514}
+  - component: {fileID: 114630452187135802}
+  m_Layer: 5
+  m_Name: Level Config
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719120925082514
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566109328695522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114630452187135802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1566109328695522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d305ce54e957f4c912d86ae94e7832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows: 5
+  columns: 9
+  maxDefenders: 6
+  avaibleDefenders:
+  - {fileID: 114643604922866126, guid: ef8f0d7784579f940a95458a0e470f45, type: 2}
+  - {fileID: 114663218649780754, guid: d684e2d9244c4744aae7dd22a4067757, type: 2}
+  - {fileID: 114534265635624098, guid: a8ec36ac507f403458a2824cedea3c1e, type: 2}
+  - {fileID: 114117011792932548, guid: 49ab7463b48dcb04ead0b9ed5cc55eba, type: 2}
+  - {fileID: 114349199274911000, guid: fa2f896e68018e94eb3778e61a259ee7, type: 2}
+  - {fileID: 114003025130092628, guid: 3afa401c4b251f641b7abfd8d4fec722, type: 2}
+  chooseDefenderCanvas: {fileID: 0}
+  gameSpace: {fileID: 1937623463546296, guid: a4c43d3e3f7bf0c449b8d9b601b8b09a, type: 2}

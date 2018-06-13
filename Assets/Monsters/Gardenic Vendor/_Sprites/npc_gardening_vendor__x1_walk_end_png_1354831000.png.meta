@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 9b779efdac5540747b66ecb27c355fe9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: npc_gardening_vendor__x1_walk_end_png_1354831000_0
+    21300002: npc_gardening_vendor__x1_walk_end_png_1354831000_1
+    21300004: npc_gardening_vendor__x1_walk_end_png_1354831000_2
+    21300006: npc_gardening_vendor__x1_walk_end_png_1354831000_3
+    21300008: npc_gardening_vendor__x1_walk_end_png_1354831000_4
+    21300010: npc_gardening_vendor__x1_walk_end_png_1354831000_5
+    21300012: npc_gardening_vendor__x1_walk_end_png_1354831000_6
+    21300014: npc_gardening_vendor__x1_walk_end_png_1354831000_7
+    21300016: npc_gardening_vendor__x1_walk_end_png_1354831000_8
+    21300018: npc_gardening_vendor__x1_walk_end_png_1354831000_9
+    21300020: npc_gardening_vendor__x1_walk_end_png_1354831000_10
+    21300022: npc_gardening_vendor__x1_walk_end_png_1354831000_11
+    21300024: npc_gardening_vendor__x1_walk_end_png_1354831000_12
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  pushPullDilation: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 396
+        width: 155
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa670d8729a851144a0235adfdc5762b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 396
+        width: 155
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ca7c7aeb5aaf04294f1805388c1a51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 396
+        width: 151
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c3bd48bac6fef4498e53e531de5ff9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_3
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 396
+        width: 143
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61ed6ca92fca3e498092ba8a3ca379e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_4
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 396
+        width: 137
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70e7e4787e870045aca73e576bd010b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 198
+        width: 139
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1137f91ad9a1dc4996219d44723a648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 198
+        width: 144
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd6934edcec5a54eac298c08edc0100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 198
+        width: 148
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a61a1058146b498f37940468826a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717489495631a084b95046898a7587aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 198
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36311ce6cc31b54ebc7c14b2cbd38d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305e27b5a882dfe44a69d1b0cc216d7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037199867a5ec3443895851879b349dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_walk_end_png_1354831000_12
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d490159f1be3ae48840591ae5c6dc48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bbe0301f48d13cc46ae604193ebbc439
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

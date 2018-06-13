@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://bitbucket.org/Pyt123/monstersvsmonsters
+	branch = master
