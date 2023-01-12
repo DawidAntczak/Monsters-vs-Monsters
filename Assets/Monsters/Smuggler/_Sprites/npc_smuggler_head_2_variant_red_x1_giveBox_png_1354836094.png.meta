@@ -1,39 +1,99 @@
 fileFormatVersion: 2
 guid: 028a841d87533f84485c4cbbfb9e4d74
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_0
-    21300002: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_1
-    21300004: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_2
-    21300006: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_3
-    21300008: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_4
-    21300010: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_5
-    21300012: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_6
-    21300014: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_7
-    21300016: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_8
-    21300018: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_9
-    21300020: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_10
-    21300022: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_11
-    21300024: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_12
-    21300026: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_13
-    21300028: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_14
-    21300030: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_15
-    21300032: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_16
-    21300034: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_17
-    21300036: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_18
-    21300038: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_19
-    21300040: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_20
-    21300042: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_21
-    21300044: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_22
-    21300046: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_23
-    21300048: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_24
-    21300050: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_25
-    21300052: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_26
-    21300054: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_27
-    21300056: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_28
-    21300058: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_29
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_0
+  - first:
+      213: 21300002
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_1
+  - first:
+      213: 21300004
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_2
+  - first:
+      213: 21300006
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_3
+  - first:
+      213: 21300008
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_4
+  - first:
+      213: 21300010
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_5
+  - first:
+      213: 21300012
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_6
+  - first:
+      213: 21300014
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_7
+  - first:
+      213: 21300016
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_8
+  - first:
+      213: 21300018
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_9
+  - first:
+      213: 21300020
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_10
+  - first:
+      213: 21300022
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_11
+  - first:
+      213: 21300024
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_12
+  - first:
+      213: 21300026
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_13
+  - first:
+      213: 21300028
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_14
+  - first:
+      213: 21300030
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_15
+  - first:
+      213: 21300032
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_16
+  - first:
+      213: 21300034
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_17
+  - first:
+      213: 21300036
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_18
+  - first:
+      213: 21300038
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_19
+  - first:
+      213: 21300040
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_20
+  - first:
+      213: 21300042
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_21
+  - first:
+      213: 21300044
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_22
+  - first:
+      213: 21300046
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_23
+  - first:
+      213: 21300048
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_24
+  - first:
+      213: 21300050
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_25
+  - first:
+      213: 21300052
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_26
+  - first:
+      213: 21300054
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_27
+  - first:
+      213: 21300056
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_28
+  - first:
+      213: 21300058
+    second: npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_29
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -53,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -61,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -84,12 +146,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  pushPullDilation: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -100,7 +166,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,7 +178,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,7 +190,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -133,6 +202,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -152,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bf49d4c6315d50545af1d0fabe273420
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -172,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0d0471a769c7b744e8f14462797db1b8
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -192,6 +276,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 930f120c151ff1a4cb5592dee1f4b4bb
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -212,6 +297,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c92b1e5dd6fcdb44ab19d5e527c50241
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -232,6 +318,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b8fd28cea7e6dbf42984f3a171a65838
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -252,6 +339,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 411d85163166b434eb5e01729fd1d941
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -272,6 +360,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cb3ddb40ca1746141b700e06dc145d34
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -292,6 +381,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c981ec5957694cf418569243356df6e7
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -312,6 +402,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1cd9f7fc06c5ad440a6273fa30c9c4bb
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -332,6 +423,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 640170cc1d831d349850def21a86aa14
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -352,6 +444,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fa79a95853afe824893b47964072a486
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -372,6 +465,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4f57ef2d7d99084409d4602c84e79da2
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -392,6 +486,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e90c23628bfe2b14f9a13037c7c53bda
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -412,6 +507,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a369cc883ab4fe247bdee529de59160b
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -432,6 +528,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 92d5f081d23078e47bc80b74fa7560ec
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -452,6 +549,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d5540120ec3190845b32d5c33517a3a2
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
@@ -472,6 +570,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1591005b0272cfe48a22bb9baad494a7
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
@@ -492,6 +591,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 463e378cb64b4354cb99998642bbce70
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
@@ -512,6 +612,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a9725adbd2da28f4892e904470485c54
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
@@ -532,6 +633,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8ed7bb73ad2979040a09e5cf44c5a196
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
@@ -552,6 +654,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c8382651c673acf43a34329895c12bb5
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
@@ -572,6 +675,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9df7a88e3650ef544bdf40ea0690a61e
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
@@ -592,6 +696,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 69974675bf8d41a4fad5d74a949c841d
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
@@ -612,6 +717,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f329c402f7f0e6f4989976bdcdb8e3a0
+      internalID: 21300046
       vertices: []
       indices: 
       edges: []
@@ -632,6 +738,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6f913526072a55945b873ed30e5b95e2
+      internalID: 21300048
       vertices: []
       indices: 
       edges: []
@@ -652,6 +759,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f1898a4e17ba2f64e88556d7b7a2893d
+      internalID: 21300050
       vertices: []
       indices: 
       edges: []
@@ -672,6 +780,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c7537b37ecc20084aa2fabe6b6d27264
+      internalID: 21300052
       vertices: []
       indices: 
       edges: []
@@ -692,6 +801,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 19bf403141e40b14487af3e9956bd271
+      internalID: 21300054
       vertices: []
       indices: 
       edges: []
@@ -712,6 +822,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 416893c1ad43ed74b8f723447ea0e444
+      internalID: 21300056
       vertices: []
       indices: 
       edges: []
@@ -732,6 +843,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8453c33a6d194084299cc3c7c787e733
+      internalID: 21300058
       vertices: []
       indices: 
       edges: []
@@ -740,11 +852,46 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 6c11821a2e6eef2449e810fbb2fcd186
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_6: 21300012
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_29: 21300058
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_13: 21300026
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_15: 21300030
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_1: 21300002
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_20: 21300040
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_24: 21300048
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_2: 21300004
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_4: 21300008
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_25: 21300050
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_12: 21300024
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_3: 21300006
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_10: 21300020
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_0: 21300000
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_8: 21300016
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_9: 21300018
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_14: 21300028
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_22: 21300044
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_7: 21300014
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_21: 21300042
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_27: 21300054
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_17: 21300034
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_23: 21300046
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_28: 21300056
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_5: 21300010
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_16: 21300032
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_18: 21300036
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_19: 21300038
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_26: 21300052
+      npc_smuggler_head_2_variant_red_x1_giveBox_png_1354836094_11: 21300022
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

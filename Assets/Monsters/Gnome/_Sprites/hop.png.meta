@@ -1,20 +1,45 @@
 fileFormatVersion: 2
 guid: cdc0da292b3ac41989de40edbf0c5883
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: npc_garden_gnome__x1_hopLoop_png_1354832665_0
-    21300002: npc_garden_gnome__x1_hopLoop_png_1354832665_1
-    21300004: npc_garden_gnome__x1_hopLoop_png_1354832665_2
-    21300006: npc_garden_gnome__x1_hopLoop_png_1354832665_3
-    21300008: npc_garden_gnome__x1_hopLoop_png_1354832665_4
-    21300010: npc_garden_gnome__x1_hopLoop_png_1354832665_5
-    21300012: npc_garden_gnome__x1_hopLoop_png_1354832665_6
-    21300014: npc_garden_gnome__x1_hopLoop_png_1354832665_7
-    21300016: npc_garden_gnome__x1_hopLoop_png_1354832665_8
-    21300018: npc_garden_gnome__x1_hopLoop_png_1354832665_9
-    21300020: npc_garden_gnome__x1_hopLoop_png_1354832665_10
-    21300022: npc_garden_gnome__x1_hopLoop_png_1354832665_11
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_0
+  - first:
+      213: 21300002
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_1
+  - first:
+      213: 21300004
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_2
+  - first:
+      213: 21300006
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_3
+  - first:
+      213: 21300008
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_4
+  - first:
+      213: 21300010
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_5
+  - first:
+      213: 21300012
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_6
+  - first:
+      213: 21300014
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_7
+  - first:
+      213: 21300016
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_8
+  - first:
+      213: 21300018
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_9
+  - first:
+      213: 21300020
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_10
+  - first:
+      213: 21300022
+    second: npc_garden_gnome__x1_hopLoop_png_1354832665_11
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -22,6 +47,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -30,6 +57,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -37,10 +68,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -49,25 +83,84 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 133.3333
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -83,7 +176,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e1f6de2ac69e3274fad292b358672a7b
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_1
       rect:
@@ -96,7 +197,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1bd451efc90f83a4a975b0db6f8e642a
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_2
       rect:
@@ -109,7 +218,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3314b6a318da03b4db43addb39842447
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_3
       rect:
@@ -122,7 +239,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 92417b8cbda05f94a950dc4790a000b4
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_4
       rect:
@@ -135,7 +260,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aee2b392192a2bc48b067dd1a550b9fc
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_5
       rect:
@@ -148,7 +281,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ec223e5907dbed54f9a3e8482e084c41
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_6
       rect:
@@ -161,7 +302,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2574f4ba584b8664bb4de8df3655b58d
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_7
       rect:
@@ -174,7 +323,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eb4c52ffb5ecfe04796b17c096f8966a
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_8
       rect:
@@ -187,7 +344,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7e0ab47d286cc834dbccd8ef066cc768
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_9
       rect:
@@ -200,7 +365,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3f81d97ec1e90654cb4f9f5938186121
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_10
       rect:
@@ -213,7 +386,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f3d76eab6e4f664478bd02884962d47f
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_hopLoop_png_1354832665_11
       rect:
@@ -226,9 +407,41 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4d24f00e3c993644397cf389847e871a
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      npc_garden_gnome__x1_hopLoop_png_1354832665_7: 21300014
+      npc_garden_gnome__x1_hopLoop_png_1354832665_9: 21300018
+      npc_garden_gnome__x1_hopLoop_png_1354832665_11: 21300022
+      npc_garden_gnome__x1_hopLoop_png_1354832665_3: 21300006
+      npc_garden_gnome__x1_hopLoop_png_1354832665_5: 21300010
+      npc_garden_gnome__x1_hopLoop_png_1354832665_10: 21300020
+      npc_garden_gnome__x1_hopLoop_png_1354832665_2: 21300004
+      npc_garden_gnome__x1_hopLoop_png_1354832665_0: 21300000
+      npc_garden_gnome__x1_hopLoop_png_1354832665_6: 21300012
+      npc_garden_gnome__x1_hopLoop_png_1354832665_1: 21300002
+      npc_garden_gnome__x1_hopLoop_png_1354832665_4: 21300008
+      npc_garden_gnome__x1_hopLoop_png_1354832665_8: 21300016
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

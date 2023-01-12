@@ -1,15 +1,30 @@
 fileFormatVersion: 2
 guid: bb6cf1fcf9ebe48b8a36cc3da0ba6f2b
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: npc_garden_gnome__x1_idleBlink_png_1354832661_0
-    21300002: npc_garden_gnome__x1_idleBlink_png_1354832661_1
-    21300004: npc_garden_gnome__x1_idleBlink_png_1354832661_2
-    21300006: npc_garden_gnome__x1_idleBlink_png_1354832661_3
-    21300008: npc_garden_gnome__x1_idleBlink_png_1354832661_4
-    21300010: npc_garden_gnome__x1_idleBlink_png_1354832661_5
-    21300012: npc_garden_gnome__x1_idleBlink_png_1354832661_6
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_0
+  - first:
+      213: 21300002
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_1
+  - first:
+      213: 21300004
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_2
+  - first:
+      213: 21300006
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_3
+  - first:
+      213: 21300008
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_4
+  - first:
+      213: 21300010
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_5
+  - first:
+      213: 21300012
+    second: npc_garden_gnome__x1_idleBlink_png_1354832661_6
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -17,6 +32,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -25,6 +42,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,10 +53,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -44,25 +68,84 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 133.3333
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -78,7 +161,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d48edeeb1507f744dae4faa1a5e75793
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_idleBlink_png_1354832661_1
       rect:
@@ -91,7 +182,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d4bb3ac5253be344ca9575231e816367
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_idleBlink_png_1354832661_2
       rect:
@@ -104,7 +203,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 452555b9b0a2d0d488f027199b007064
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_idleBlink_png_1354832661_3
       rect:
@@ -117,7 +224,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 70311687372a1524c8dae5a18c411340
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_idleBlink_png_1354832661_4
       rect:
@@ -130,7 +245,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 09dbbe80c4829d74ea2a2e775915df36
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_idleBlink_png_1354832661_5
       rect:
@@ -143,7 +266,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 50bc8091ac669294e9b13864c272cb0e
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_garden_gnome__x1_idleBlink_png_1354832661_6
       rect:
@@ -156,9 +287,36 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84834e991f2b23343afaef47a178fe12
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      npc_garden_gnome__x1_idleBlink_png_1354832661_1: 21300002
+      npc_garden_gnome__x1_idleBlink_png_1354832661_6: 21300012
+      npc_garden_gnome__x1_idleBlink_png_1354832661_4: 21300008
+      npc_garden_gnome__x1_idleBlink_png_1354832661_2: 21300004
+      npc_garden_gnome__x1_idleBlink_png_1354832661_5: 21300010
+      npc_garden_gnome__x1_idleBlink_png_1354832661_3: 21300006
+      npc_garden_gnome__x1_idleBlink_png_1354832661_0: 21300000
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

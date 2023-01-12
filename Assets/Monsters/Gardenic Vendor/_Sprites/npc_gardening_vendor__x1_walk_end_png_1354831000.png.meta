@@ -1,22 +1,48 @@
 fileFormatVersion: 2
 guid: 9b779efdac5540747b66ecb27c355fe9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: npc_gardening_vendor__x1_walk_end_png_1354831000_0
-    21300002: npc_gardening_vendor__x1_walk_end_png_1354831000_1
-    21300004: npc_gardening_vendor__x1_walk_end_png_1354831000_2
-    21300006: npc_gardening_vendor__x1_walk_end_png_1354831000_3
-    21300008: npc_gardening_vendor__x1_walk_end_png_1354831000_4
-    21300010: npc_gardening_vendor__x1_walk_end_png_1354831000_5
-    21300012: npc_gardening_vendor__x1_walk_end_png_1354831000_6
-    21300014: npc_gardening_vendor__x1_walk_end_png_1354831000_7
-    21300016: npc_gardening_vendor__x1_walk_end_png_1354831000_8
-    21300018: npc_gardening_vendor__x1_walk_end_png_1354831000_9
-    21300020: npc_gardening_vendor__x1_walk_end_png_1354831000_10
-    21300022: npc_gardening_vendor__x1_walk_end_png_1354831000_11
-    21300024: npc_gardening_vendor__x1_walk_end_png_1354831000_12
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_0
+  - first:
+      213: 21300002
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_1
+  - first:
+      213: 21300004
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_2
+  - first:
+      213: 21300006
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_3
+  - first:
+      213: 21300008
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_4
+  - first:
+      213: 21300010
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_5
+  - first:
+      213: 21300012
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_6
+  - first:
+      213: 21300014
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_7
+  - first:
+      213: 21300016
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_8
+  - first:
+      213: 21300018
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_9
+  - first:
+      213: 21300020
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_10
+  - first:
+      213: 21300022
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_11
+  - first:
+      213: 21300024
+    second: npc_gardening_vendor__x1_walk_end_png_1354831000_12
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -36,6 +62,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -44,9 +72,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -67,12 +95,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  pushPullDilation: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,7 +115,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,7 +127,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -105,7 +139,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -116,6 +151,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -135,6 +183,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fa670d8729a851144a0235adfdc5762b
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -155,6 +204,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 54ca7c7aeb5aaf04294f1805388c1a51
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -175,6 +225,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 26c3bd48bac6fef4498e53e531de5ff9
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -195,6 +246,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c61ed6ca92fca3e498092ba8a3ca379e
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -215,6 +267,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d70e7e4787e870045aca73e576bd010b
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -235,6 +288,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a1137f91ad9a1dc4996219d44723a648
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -255,6 +309,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bcd6934edcec5a54eac298c08edc0100
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -275,6 +330,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e6a61a1058146b498f37940468826a1
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -295,6 +351,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 717489495631a084b95046898a7587aa
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -315,6 +372,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a36311ce6cc31b54ebc7c14b2cbd38d8
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -335,6 +393,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 305e27b5a882dfe44a69d1b0cc216d7e
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -355,6 +414,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 037199867a5ec3443895851879b349dc
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -375,6 +435,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8d490159f1be3ae48840591ae5c6dc48
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -383,11 +444,29 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: bbe0301f48d13cc46ae604193ebbc439
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      npc_gardening_vendor__x1_walk_end_png_1354831000_2: 21300004
+      npc_gardening_vendor__x1_walk_end_png_1354831000_9: 21300018
+      npc_gardening_vendor__x1_walk_end_png_1354831000_4: 21300008
+      npc_gardening_vendor__x1_walk_end_png_1354831000_5: 21300010
+      npc_gardening_vendor__x1_walk_end_png_1354831000_12: 21300024
+      npc_gardening_vendor__x1_walk_end_png_1354831000_3: 21300006
+      npc_gardening_vendor__x1_walk_end_png_1354831000_7: 21300014
+      npc_gardening_vendor__x1_walk_end_png_1354831000_10: 21300020
+      npc_gardening_vendor__x1_walk_end_png_1354831000_6: 21300012
+      npc_gardening_vendor__x1_walk_end_png_1354831000_8: 21300016
+      npc_gardening_vendor__x1_walk_end_png_1354831000_11: 21300022
+      npc_gardening_vendor__x1_walk_end_png_1354831000_1: 21300002
+      npc_gardening_vendor__x1_walk_end_png_1354831000_0: 21300000
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,52 +1,141 @@
 fileFormatVersion: 2
 guid: 65133ed4cbc87406bb84c3a98756d5ce
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: cactus idle_0
-    21300002: cactus idle_1
-    21300004: cactus idle_2
-    21300006: cactus idle_3
-    21300008: cactus idle_4
-    21300010: cactus idle_5
-    21300012: cactus idle_6
-    21300014: cactus idle_7
-    21300016: cactus idle_8
-    21300018: cactus idle_9
-    21300020: cactus idle_10
-    21300022: cactus idle_11
-    21300024: cactus idle_12
-    21300026: cactus idle_13
-    21300028: cactus idle_14
-    21300030: cactus idle_15
-    21300032: cactus idle_16
-    21300034: cactus idle_17
-    21300036: cactus idle_18
-    21300038: cactus idle_19
-    21300040: cactus idle_20
-    21300042: cactus idle_21
-    21300044: cactus idle_22
-    21300046: cactus idle_23
-    21300048: cactus idle_24
-    21300050: cactus idle_25
-    21300052: cactus idle_26
-    21300054: cactus idle_27
-    21300056: cactus idle_28
-    21300058: cactus idle_29
-    21300060: cactus idle_30
-    21300062: cactus idle_31
-    21300064: cactus idle_32
-    21300066: cactus idle_33
-    21300068: cactus idle_34
-    21300070: cactus idle_35
-    21300072: cactus idle_36
-    21300074: cactus idle_37
-    21300076: cactus idle_38
-    21300078: cactus idle_39
-    21300080: cactus idle_40
-    21300082: cactus idle_41
-    21300084: cactus idle_42
-    21300086: cactus idle_43
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: cactus idle_0
+  - first:
+      213: 21300002
+    second: cactus idle_1
+  - first:
+      213: 21300004
+    second: cactus idle_2
+  - first:
+      213: 21300006
+    second: cactus idle_3
+  - first:
+      213: 21300008
+    second: cactus idle_4
+  - first:
+      213: 21300010
+    second: cactus idle_5
+  - first:
+      213: 21300012
+    second: cactus idle_6
+  - first:
+      213: 21300014
+    second: cactus idle_7
+  - first:
+      213: 21300016
+    second: cactus idle_8
+  - first:
+      213: 21300018
+    second: cactus idle_9
+  - first:
+      213: 21300020
+    second: cactus idle_10
+  - first:
+      213: 21300022
+    second: cactus idle_11
+  - first:
+      213: 21300024
+    second: cactus idle_12
+  - first:
+      213: 21300026
+    second: cactus idle_13
+  - first:
+      213: 21300028
+    second: cactus idle_14
+  - first:
+      213: 21300030
+    second: cactus idle_15
+  - first:
+      213: 21300032
+    second: cactus idle_16
+  - first:
+      213: 21300034
+    second: cactus idle_17
+  - first:
+      213: 21300036
+    second: cactus idle_18
+  - first:
+      213: 21300038
+    second: cactus idle_19
+  - first:
+      213: 21300040
+    second: cactus idle_20
+  - first:
+      213: 21300042
+    second: cactus idle_21
+  - first:
+      213: 21300044
+    second: cactus idle_22
+  - first:
+      213: 21300046
+    second: cactus idle_23
+  - first:
+      213: 21300048
+    second: cactus idle_24
+  - first:
+      213: 21300050
+    second: cactus idle_25
+  - first:
+      213: 21300052
+    second: cactus idle_26
+  - first:
+      213: 21300054
+    second: cactus idle_27
+  - first:
+      213: 21300056
+    second: cactus idle_28
+  - first:
+      213: 21300058
+    second: cactus idle_29
+  - first:
+      213: 21300060
+    second: cactus idle_30
+  - first:
+      213: 21300062
+    second: cactus idle_31
+  - first:
+      213: 21300064
+    second: cactus idle_32
+  - first:
+      213: 21300066
+    second: cactus idle_33
+  - first:
+      213: 21300068
+    second: cactus idle_34
+  - first:
+      213: 21300070
+    second: cactus idle_35
+  - first:
+      213: 21300072
+    second: cactus idle_36
+  - first:
+      213: 21300074
+    second: cactus idle_37
+  - first:
+      213: 21300076
+    second: cactus idle_38
+  - first:
+      213: 21300078
+    second: cactus idle_39
+  - first:
+      213: 21300080
+    second: cactus idle_40
+  - first:
+      213: 21300082
+    second: cactus idle_41
+  - first:
+      213: 21300084
+    second: cactus idle_42
+  - first:
+      213: 21300086
+    second: cactus idle_43
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -54,6 +143,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -62,6 +153,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -69,10 +164,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -81,25 +179,84 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 133.3333
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -115,7 +272,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eb52e16d6a628e94684bc30ce5245385
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_1
       rect:
@@ -128,7 +293,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 11d24ee8559ebdf4b91204d746da62e7
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_2
       rect:
@@ -141,7 +314,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c5d534203232f3c4f8fa073a6967e718
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_3
       rect:
@@ -154,7 +335,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4d8434555e8580a47afa4c4aa5b810bc
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_4
       rect:
@@ -167,7 +356,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f94025ffdfe3e1b4fb27b2dc450de266
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_5
       rect:
@@ -180,7 +377,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 34c8a409532d76642a79c2e668059ed1
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_6
       rect:
@@ -193,7 +398,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 06e6c68faf952204f963e9e4da56c9b6
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_7
       rect:
@@ -206,7 +419,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b92d10c9d65db0f47a7b4ecb88337bea
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_8
       rect:
@@ -219,7 +440,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4f7a7fa6911e687408986629e6b6601b
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_9
       rect:
@@ -232,7 +461,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b543882a07e13b743be1f1005ade7f07
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_10
       rect:
@@ -245,7 +482,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 36d90c4faa2154a439d992884161f8cb
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_11
       rect:
@@ -258,7 +503,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 48433c17181419a4f84eb1af19449a00
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_12
       rect:
@@ -271,7 +524,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 94ccda973e2725041b2def561f149581
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_13
       rect:
@@ -284,7 +545,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 88b9de087417ace4f887aa97578ef374
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_14
       rect:
@@ -297,7 +566,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 57966bba3e1868a45992b01347f375b1
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_15
       rect:
@@ -310,7 +587,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 161029f344aa4dd4d8001cf5bee77056
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_16
       rect:
@@ -323,7 +608,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7a9209e971b10f144972274d6bc792e1
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_17
       rect:
@@ -336,7 +629,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aa9d58e1134a89646b43527e58ced657
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_18
       rect:
@@ -349,7 +650,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 892737c66b870104cab161a3941a56bc
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_19
       rect:
@@ -362,7 +671,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3294abd401d6c6445970f22dbbf969aa
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_20
       rect:
@@ -375,7 +692,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 74739f687eb1cdd4cbfa81fa4fe264f9
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_21
       rect:
@@ -388,7 +713,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2368c0576be07854d87821fc2c269398
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_22
       rect:
@@ -401,7 +734,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1ae8f522b80300d49b59cbce414beb5d
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_23
       rect:
@@ -414,7 +755,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aefd10cc48af8574796d44f8d335da99
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_24
       rect:
@@ -427,7 +776,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f342538fbedabed4683b51f4febba736
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_25
       rect:
@@ -440,7 +797,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 02ca28a3bcc104e41a33ac2689686ad4
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_26
       rect:
@@ -453,7 +818,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d8fb412def6f82042981d8009beea829
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_27
       rect:
@@ -466,7 +839,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 96305cd633a234f448fb472cfdf81058
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_28
       rect:
@@ -479,7 +860,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 613dc4a8e7a95624b8bf3a901b6807c5
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_29
       rect:
@@ -492,7 +881,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1edd8a353dafb7249a37a69926dab876
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_30
       rect:
@@ -505,7 +902,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 695452077606bc74b8b3a73e58bc3aba
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_31
       rect:
@@ -518,7 +923,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f4967f2516363964e9f4baa37d7dbcb2
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_32
       rect:
@@ -531,7 +944,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9a2b5746d1d1a2744a6a964d14443f93
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_33
       rect:
@@ -544,7 +965,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cbcdbd80a0f18d0479f3c74e6b409930
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_34
       rect:
@@ -557,7 +986,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 96a3de690dbcef041ae2dff200408034
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_35
       rect:
@@ -570,7 +1007,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1ccef185503f1f748af6c69e6c974eb1
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_36
       rect:
@@ -583,7 +1028,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6d4bf97c10421cc40a1781caf8a573a3
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_37
       rect:
@@ -596,7 +1049,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f590bb01fb0383d4b9db35b7063e272c
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_38
       rect:
@@ -609,7 +1070,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6c802e626d980a34a9da23c97fa86561
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_39
       rect:
@@ -622,7 +1091,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 834d87444ffac844b95ef764909bbe97
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_40
       rect:
@@ -635,7 +1112,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ac40119c68eed5242bad9bcb0cd917a0
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_41
       rect:
@@ -648,7 +1133,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0b1527177834a6543907bf1b45060660
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_42
       rect:
@@ -661,7 +1154,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0045d3c9debdee44788643bac0058b7c
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cactus idle_43
       rect:
@@ -674,9 +1175,73 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: dc3719f81741a8b4db463df195a4e29c
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cactus idle_1: 21300002
+      cactus idle_11: 21300022
+      cactus idle_30: 21300060
+      cactus idle_42: 21300084
+      cactus idle_25: 21300050
+      cactus idle_18: 21300036
+      cactus idle_43: 21300086
+      cactus idle_33: 21300066
+      cactus idle_31: 21300062
+      cactus idle_39: 21300078
+      cactus idle_26: 21300052
+      cactus idle_37: 21300074
+      cactus idle_2: 21300004
+      cactus idle_4: 21300008
+      cactus idle_24: 21300048
+      cactus idle_13: 21300026
+      cactus idle_7: 21300014
+      cactus idle_8: 21300016
+      cactus idle_35: 21300070
+      cactus idle_38: 21300076
+      cactus idle_20: 21300040
+      cactus idle_6: 21300012
+      cactus idle_15: 21300030
+      cactus idle_16: 21300032
+      cactus idle_21: 21300042
+      cactus idle_27: 21300054
+      cactus idle_10: 21300020
+      cactus idle_40: 21300080
+      cactus idle_34: 21300068
+      cactus idle_28: 21300056
+      cactus idle_36: 21300072
+      cactus idle_17: 21300034
+      cactus idle_22: 21300044
+      cactus idle_9: 21300018
+      cactus idle_32: 21300064
+      cactus idle_3: 21300006
+      cactus idle_5: 21300010
+      cactus idle_41: 21300082
+      cactus idle_14: 21300028
+      cactus idle_19: 21300038
+      cactus idle_29: 21300058
+      cactus idle_0: 21300000
+      cactus idle_23: 21300046
+      cactus idle_12: 21300024
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

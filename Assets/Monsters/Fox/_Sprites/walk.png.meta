@@ -1,32 +1,81 @@
 fileFormatVersion: 2
 guid: 63b6e8cb164fc4d66a085344d8327ce4
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: npc_fox_fox_orangeFox_x1_walk_png_1354839598_0
-    21300002: npc_fox_fox_orangeFox_x1_walk_png_1354839598_1
-    21300004: npc_fox_fox_orangeFox_x1_walk_png_1354839598_2
-    21300006: npc_fox_fox_orangeFox_x1_walk_png_1354839598_3
-    21300008: npc_fox_fox_orangeFox_x1_walk_png_1354839598_4
-    21300010: npc_fox_fox_orangeFox_x1_walk_png_1354839598_5
-    21300012: npc_fox_fox_orangeFox_x1_walk_png_1354839598_6
-    21300014: npc_fox_fox_orangeFox_x1_walk_png_1354839598_7
-    21300016: npc_fox_fox_orangeFox_x1_walk_png_1354839598_8
-    21300018: npc_fox_fox_orangeFox_x1_walk_png_1354839598_9
-    21300020: npc_fox_fox_orangeFox_x1_walk_png_1354839598_10
-    21300022: npc_fox_fox_orangeFox_x1_walk_png_1354839598_11
-    21300024: npc_fox_fox_orangeFox_x1_walk_png_1354839598_12
-    21300026: npc_fox_fox_orangeFox_x1_walk_png_1354839598_13
-    21300028: npc_fox_fox_orangeFox_x1_walk_png_1354839598_14
-    21300030: npc_fox_fox_orangeFox_x1_walk_png_1354839598_15
-    21300032: npc_fox_fox_orangeFox_x1_walk_png_1354839598_16
-    21300034: npc_fox_fox_orangeFox_x1_walk_png_1354839598_17
-    21300036: npc_fox_fox_orangeFox_x1_walk_png_1354839598_18
-    21300038: npc_fox_fox_orangeFox_x1_walk_png_1354839598_19
-    21300040: npc_fox_fox_orangeFox_x1_walk_png_1354839598_20
-    21300042: npc_fox_fox_orangeFox_x1_walk_png_1354839598_21
-    21300044: npc_fox_fox_orangeFox_x1_walk_png_1354839598_22
-    21300046: npc_fox_fox_orangeFox_x1_walk_png_1354839598_23
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_0
+  - first:
+      213: 21300002
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_1
+  - first:
+      213: 21300004
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_2
+  - first:
+      213: 21300006
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_3
+  - first:
+      213: 21300008
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_4
+  - first:
+      213: 21300010
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_5
+  - first:
+      213: 21300012
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_6
+  - first:
+      213: 21300014
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_7
+  - first:
+      213: 21300016
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_8
+  - first:
+      213: 21300018
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_9
+  - first:
+      213: 21300020
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_10
+  - first:
+      213: 21300022
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_11
+  - first:
+      213: 21300024
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_12
+  - first:
+      213: 21300026
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_13
+  - first:
+      213: 21300028
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_14
+  - first:
+      213: 21300030
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_15
+  - first:
+      213: 21300032
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_16
+  - first:
+      213: 21300034
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_17
+  - first:
+      213: 21300036
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_18
+  - first:
+      213: 21300038
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_19
+  - first:
+      213: 21300040
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_20
+  - first:
+      213: 21300042
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_21
+  - first:
+      213: 21300044
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_22
+  - first:
+      213: 21300046
+    second: npc_fox_fox_orangeFox_x1_walk_png_1354839598_23
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -34,6 +83,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -42,6 +93,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -49,10 +104,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -61,25 +119,84 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 133.3333
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -95,7 +212,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fe8f7f8a662506644b72e63c077be744
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_1
       rect:
@@ -108,7 +233,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: afd271c9e1b80714a88fd1a7b0ed0f3c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_2
       rect:
@@ -121,7 +254,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4b62228d01306974f9d5d9f2fc0a79f9
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_3
       rect:
@@ -134,7 +275,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8e1a7d99101e26c43aff4c4e3237cd8d
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_4
       rect:
@@ -147,7 +296,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7e3f142019376e54585070afdd2ebb61
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_5
       rect:
@@ -160,7 +317,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 270c48b8a9962f44cb36c0f1ec56f8d2
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_6
       rect:
@@ -173,7 +338,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: baf77065159ddaa4ea15db45f336d83e
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_7
       rect:
@@ -186,7 +359,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 186e94ad6ffdf8f4a9ea85647875250f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_8
       rect:
@@ -199,7 +380,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 77aa0e63ca27e9b488a9510a14efe918
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_9
       rect:
@@ -212,7 +401,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3d8c68273ae09544a3d938267d06d49
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_10
       rect:
@@ -225,7 +422,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4fd41d2eb5a78ea4aac7526880e7e506
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_11
       rect:
@@ -238,7 +443,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2ffbf348b27f3974ea71e3ea2c74076c
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_12
       rect:
@@ -251,7 +464,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5b9449558934d5e42832c5462ea18300
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_13
       rect:
@@ -264,7 +485,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0d7ec4766735dbd44b0af069da023e2a
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_14
       rect:
@@ -277,7 +506,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5ab245ce36b9c924b8c86b206426205b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_15
       rect:
@@ -290,7 +527,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c035d045b7d3f97428f10883844fdbd0
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_16
       rect:
@@ -303,7 +548,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b81efdd52446a3f4eae55cfa12b4e954
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_17
       rect:
@@ -316,7 +569,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 09dc6cde516be5944b0447e2375d4b1f
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_18
       rect:
@@ -329,7 +590,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4c944a7677ecc4943bbc07ab495f6a7b
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_19
       rect:
@@ -342,7 +611,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8416e7b26ad72bf4aae689e6f9fa461b
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_20
       rect:
@@ -355,7 +632,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: be148ead52078ca4ebebb9401b696610
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_21
       rect:
@@ -368,7 +653,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: db5d0ee59d8512d4c8887db9f2fec82d
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_22
       rect:
@@ -381,7 +674,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f0fe736633712ae4986ca2244453739b
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_23
       rect:
@@ -394,9 +695,53 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f8fddf9e89b564a4cb8e9b09bc1f25f4
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_0: 21300000
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_13: 21300026
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_1: 21300002
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_2: 21300004
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_14: 21300028
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_3: 21300006
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_22: 21300044
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_18: 21300036
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_19: 21300038
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_9: 21300018
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_12: 21300024
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_15: 21300030
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_16: 21300032
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_17: 21300034
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_7: 21300014
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_11: 21300022
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_4: 21300008
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_8: 21300016
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_5: 21300010
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_23: 21300046
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_20: 21300040
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_21: 21300042
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_6: 21300012
+      npc_fox_fox_orangeFox_x1_walk_png_1354839598_10: 21300020
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
