@@ -28,6 +28,6 @@ public class EvilSunflower : MonoBehaviour
     {
         Instantiate(collectableSun,
                     transform.position + new Vector3(Random.Range(-dispersion, dispersion), Random.Range(-dispersion, dispersion), -0.5f),
-                    Quaternion.identity);
+                    Quaternion.identity, ObjectsOrganizer.Instance.CollectableParent);
     }
 }

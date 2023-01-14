@@ -1,11 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LevelConfig : MonoBehaviour
 {
     public static LevelConfig Instance { get; private set; }
-    
+
+    public delegate void GameStartedHandler(object sender);
+
+    public event GameStartedHandler GameStarted;
+
     [SerializeField] private int rows = 5;
     [SerializeField] private int columns = 9;
     [SerializeField] private int maxDefenders = 4;
@@ -34,6 +36,7 @@ public class LevelConfig : MonoBehaviour
         LevelCanvasTransform = Instantiate(levelCanvas).transform;
         Transform gameSpaceTransform = Instantiate(gameSpaceCanvas).transform;
         spawningSystem = Instantiate(spawningSystem, transform);
+        GameStarted?.Invoke(this);
     }
 
     public int Rows

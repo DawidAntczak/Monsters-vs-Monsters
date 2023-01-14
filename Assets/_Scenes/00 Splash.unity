@@ -685,6 +685,66 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _reset
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: useDebugProperties
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _gameStateCalculator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _entropy.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _entropy.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _attackDensity.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _attackDensity.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _attackDensity.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _attackDensity.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _avgPitchesPlayed.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _avgPitchesPlayed.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _avgPitchesPlayed.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6424347650715327667, guid: e8543c32287dae8439b4e0a06dd390a1,
         type: 3}
       propertyPath: m_Name
@@ -692,3 +752,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8543c32287dae8439b4e0a06dd390a1, type: 3}
+--- !u!1 &6639296517837729908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6424347650715327667, guid: e8543c32287dae8439b4e0a06dd390a1,
+    type: 3}
+  m_PrefabInstance: {fileID: 6639296517837729907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6639296517837729909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639296517837729908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e6610534924944894a042aa3c8a861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6639296517837729910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639296517837729908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98591f21d5cd12943a9d190ab719d1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6639296517837729913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639296517837729908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f42926730c4c44dadb07455fc91f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

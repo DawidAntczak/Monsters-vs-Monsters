@@ -9,7 +9,7 @@ public class SunCountDisplay : MonoBehaviour
     public static SunCountDisplay Instance { get; private set; }
     [SerializeField] private int startSun = 50;
     private Text starsCounter;
-    private int stars;
+    public int Stars { get; private set; }
 
     private void Awake()
     {
@@ -18,23 +18,23 @@ public class SunCountDisplay : MonoBehaviour
 
     void Start ()
     {
-        stars = startSun;
+        Stars = startSun;
         starsCounter = GetComponent<Text>();
-        starsCounter.text = stars.ToString();
+        starsCounter.text = Stars.ToString();
     }
 
     public void AddStars(int amount)
     {
-        stars += amount;
-        starsCounter.text = stars.ToString();
+        Stars += amount;
+        starsCounter.text = Stars.ToString();
     }
 
     public Status UseStars(int amount)
     {
-        if(stars >= amount)
+        if(Stars >= amount)
         {
-            stars -= amount;
-            starsCounter.text = stars.ToString();
+            Stars -= amount;
+            starsCounter.text = Stars.ToString();
             return Status.SUCCESS;
         }
 

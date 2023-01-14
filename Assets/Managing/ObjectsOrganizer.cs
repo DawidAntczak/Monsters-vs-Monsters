@@ -9,6 +9,7 @@ public class ObjectsOrganizer : MonoBehaviour
     public Transform AttackerParent { get; private set; }
     public Transform DefenderParent { get; private set; }
     public Transform ProjectileParent { get; private set; }
+    public Transform CollectableParent { get; private set; }
 
     private void Awake()
     {
@@ -25,5 +26,9 @@ public class ObjectsOrganizer : MonoBehaviour
         obj = new GameObject("Projectile Parent");
         obj.transform.SetParent(gameObject.transform);
         ProjectileParent = obj.transform;
+
+        obj = new GameObject("Collectable Parent");
+        obj.transform.SetParent(gameObject.transform);
+        CollectableParent = obj.transform;
     }
 }
