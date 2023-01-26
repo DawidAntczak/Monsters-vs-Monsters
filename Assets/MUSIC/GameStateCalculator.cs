@@ -1,11 +1,13 @@
-using System.Collections;
 using System.Collections.Concurrent;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameStateCalculator : MonoBehaviour
 {
     public static GameStateCalculator Instance;
+
+    private static Thread _mainThread = Thread.CurrentThread;
 
     private readonly ConcurrentQueue<GameState> _calculatedGameStates = new();
     private int _calculateGameStateRequests = 0;
@@ -34,7 +36,7 @@ public class GameStateCalculator : MonoBehaviour
 
     private void SceneManager_activeSceneChanged(Scene arg0, Scene arg1)
     {
-        if (arg1.name.Contains("Level", System.StringComparison.InvariantCultureIgnoreCase))
+        if (arg1.name.Contains("LVL", System.StringComparison.InvariantCultureIgnoreCase) || arg1.name.Contains("Level", System.StringComparison.InvariantCultureIgnoreCase))
         {
             _stage = GameState.Stage.Preparing;
         }
@@ -78,6 +80,11 @@ public class GameStateCalculator : MonoBehaviour
 
     public GameState CalculateGameState()
     {
+        if (Thread.CurrentThread == _mainThread)
+        {
+            return CalculateGameStateInternal();
+        }
+
         _calculateGameStateRequests++;
 
         GameState gameState;
@@ -113,12 +120,9 @@ public class GameStateCalculator : MonoBehaviour
         var avgMouseSpeed = MouseTracker.Instance.GetAverageSpeed();
         var avgMouseClicks = MouseTracker.Instance.GetAverageClicks();
 
-        var starsLeft = SunCountDisplay.Instance.Stars;
-
         var defendersCount = ObjectsOrganizer.Instance.DefenderParent.childCount;
         var sunflowerCount = ObjectsOrganizer.Instance.DefenderParent.GetComponentsInChildren<EvilSunflower>().Length;
         var enemiesCount = ObjectsOrganizer.Instance.AttackerParent.childCount;
-        var collectablesCount = ObjectsOrganizer.Instance.CollectableParent.childCount;
 
         if (_spawningAnimator == null)
         {
@@ -135,9 +139,7 @@ public class GameStateCalculator : MonoBehaviour
             LevelProgess = levelProgess,
             DefendersCount = defendersCount,
             SunflowersCount = sunflowerCount,
-            EnemiesCount = enemiesCount,
-            SunsLeft = starsLeft,
-            CollectableSuns = collectablesCount
+            EnemiesCount = enemiesCount
         };
     }
 }

@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class ChoosePlantsSystem : MonoBehaviour
 {
     public static ChoosePlantsSystem Instance { get; private set; }
     [SerializeField] private RectTransform choosenLayout;
     [SerializeField] private RectTransform availableLayout;
-    
+    [SerializeField] private Button startButton;
+
     private void Awake()
     {
         Instance = this;
@@ -20,6 +20,7 @@ public class ChoosePlantsSystem : MonoBehaviour
         {
             Instantiate(def, availableLayout);
         }
+        RecalculateIfCanStart();
     }
 
     public void ReportClicked(DefenderButton defender)
@@ -32,6 +33,7 @@ public class ChoosePlantsSystem : MonoBehaviour
         {
             AddToChoosen(defender);
         }
+        RecalculateIfCanStart();
     }
 
     private void AddToChoosen(DefenderButton defender)
@@ -42,6 +44,18 @@ public class ChoosePlantsSystem : MonoBehaviour
     private void RemoveFromChoosen(DefenderButton defender)
     {
         defender.transform.SetParent(availableLayout);
+    }
+
+    private void RecalculateIfCanStart()
+    {
+        if (LevelConfig.Instance.MaxDefenders == choosenLayout.childCount)
+        {
+            startButton.interactable = true;
+        }
+        else
+        {
+            startButton.interactable = false;
+        }
     }
 
     public void Confirmed()

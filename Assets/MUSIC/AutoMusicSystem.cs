@@ -1,19 +1,23 @@
 ﻿using MusicInterface;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
 
 public class AutoMusicSystem : MonoBehaviour
 {
+    [SerializeField] private string _wsServerAddress = "ws://localhost:7890/listener";
     [SerializeField] private bool useDebugProperties = false;
     [SerializeField] private double[] _mode = new double[3];
     [SerializeField] private double[] _attackDensity = new double[6];
     [SerializeField] private double[] _avgPitchesPlayed = new double[3];
     [SerializeField] private double[] _entropy = new double[3];
     [SerializeField] private bool _reset = false;
-    [SerializeField] private int _requestedEventCount = 100;
-
-    private MusicReceiver _musicReceiver;
+    [SerializeField] private float _temperature = 1.5f;
+    [SerializeField] private float _requestedTimeLength = 5f;
+    [SerializeField][Range(-12, 12)] private int _keyAdjustmentInSemitones = 0;
+    [SerializeField] [Range(0, 127)] private int _instrument = 1;
+    
+    private MusicGenerationModel _musicGenerationModel;
     private MusicPlayer _musicPlayer;
 
     private bool _playing = false;
@@ -26,8 +30,8 @@ public class AutoMusicSystem : MonoBehaviour
             return;
 
         Debug.Log("Starting music player in background");
-        Instance._musicReceiver.StartListening(Instance._musicPlayer.EnqueueAndRequestNext);
-        Instance._musicPlayer.StartInBackground();
+        _musicGenerationModel.Connect(Instance._musicPlayer.EnqueueAndRequestNext);
+        _musicPlayer.StartInBackground();
         _playing = true;
     }
 
@@ -37,8 +41,8 @@ public class AutoMusicSystem : MonoBehaviour
             return;
 
         Debug.Log("Stopping music player");
-        Instance._musicPlayer.Stop();
-        Instance._musicReceiver.StopListening();
+        _musicPlayer.Stop();
+        _musicGenerationModel.Disconnect();
         _playing = false;
     }
 
@@ -82,8 +86,8 @@ public class AutoMusicSystem : MonoBehaviour
 
     void Start()
     {
-        _musicReceiver = new MusicReceiver(new WsClient("ws://localhost:7890/listener"), LogDispatcher.Instance.Log);
-        _musicPlayer = new MusicPlayer(_musicReceiver, CollectControlData, LogDispatcher.Instance.Log, LogDispatcher.Instance.Log);
+        _musicGenerationModel = new MusicGenerationModel(_wsServerAddress, LogDispatcher.Instance.Log);
+        _musicPlayer = new MusicPlayer(_musicGenerationModel, CollectControlData, CollectPlayingParams, LogDispatcher.Instance.Log, LogDispatcher.Instance.Log);
     }
 
     private ControlData CollectControlData()
@@ -94,8 +98,17 @@ public class AutoMusicSystem : MonoBehaviour
         }
 
         var gameState = GameStateCalculator.Instance.CalculateGameState();
-        var controlData = GameStateToControlsConverter.Convert(gameState);
+        var controlData = GameStateToControlsConverter.Convert(gameState, _temperature, _requestedTimeLength);
         return controlData;
+    }
+
+    private PlayingParams CollectPlayingParams()
+    {
+        return new PlayingParams
+        {
+            KeyAdjustmentInSemitones = _keyAdjustmentInSemitones,
+            Instrument = _instrument
+        };
     }
 
     private ControlData CollectDebugControlData()
@@ -107,7 +120,7 @@ public class AutoMusicSystem : MonoBehaviour
             AvgPitchesPlayed = Vector.FromArray(_avgPitchesPlayed),
             Entropy = Vector.FromArray(_entropy),
             Reset = _reset,
-            RequestedEventCount = _requestedEventCount
+            RequestedTimeLength = _requestedTimeLength
         };
 
         _reset = false;

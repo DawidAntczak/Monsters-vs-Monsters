@@ -62,7 +62,7 @@ public class SpawningSystem : MonoBehaviour
             Debug.LogError("Invalid argument in animator function call!");
             return;
         }
-        Movable attacker = Instantiate(attackerObj, spawnerTran.position + new Vector3(0f, 0f, Random.Range(0, 0.1f)),
+        var attacker = Instantiate(attackerObj, spawnerTran.position + new Vector3(0f, 0f, Random.Range(0, 0.1f)),
             Quaternion.identity, ObjectsOrganizer.Instance.AttackerParent).GetComponent<Movable>();
         attacker.LaneIndex = spawnerIndex;
     }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ObjectsOrganizer : MonoBehaviour
 {
@@ -15,7 +13,7 @@ public class ObjectsOrganizer : MonoBehaviour
     {
         Instance = this;
 
-        GameObject obj = new GameObject("Defender Parent");
+        var obj = new GameObject("Defender Parent");
         obj.transform.SetParent(gameObject.transform);
         DefenderParent = obj.transform;
 

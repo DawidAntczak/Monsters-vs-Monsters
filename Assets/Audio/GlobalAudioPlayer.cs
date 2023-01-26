@@ -12,6 +12,11 @@ public class GlobalAudioPlayer : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void PlayOneShot(AudioClip audioClip, float volume=1f)
     {
         audioSource.PlayOneShot(audioClip, volume);

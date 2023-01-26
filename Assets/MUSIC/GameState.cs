@@ -16,13 +16,10 @@ public class GameState
     public int DefendersCount { get; set; }
     public int SunflowersCount { get; set; }    // included in DefendersCount
     public int EnemiesCount { get; set; }
-    public int SunsLeft { get; set; }
-    public int CollectableSuns { get; set; }
 
     public override string ToString()
     {
         return $"IsInitState: {IsInitState}, GameStage: {GameStage}, AverageMouseSpeed: {AverageMouseSpeed}, AverageMouseClicks: {AverageMouseClicks}" +
-            $", LevelProgess: {LevelProgess}, DefendersCount: {DefendersCount}, SunflowersCount: {SunflowersCount}, EnemiesCount: {EnemiesCount}" +
-            $", StarsLeft: {SunsLeft}, CollectableStars: {CollectableSuns}";
+            $"LevelProgess: {LevelProgess}, ActDef-Att: {DefendersCount - SunflowersCount - EnemiesCount}";
     }
 }

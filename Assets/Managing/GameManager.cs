@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -15,14 +13,24 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
-    public void QuitRequest()
+    public void LoadLastLevel()
     {
-        Debug.Log("Quit requested");
-        Application.Quit();
+        SceneManager.LoadScene(SceneStack.Instance.GetPreviousSceneIndex());
+    }
+
+    public void LoadCurrentLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void QuitRequest()
+    {
+        Debug.Log("Quit requested");
+        Application.Quit();
     }
 }

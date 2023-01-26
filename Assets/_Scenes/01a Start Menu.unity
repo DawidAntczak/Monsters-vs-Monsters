@@ -595,7 +595,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 02 Level01
+          m_StringArgument: LVL_001
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!1 &736736523
