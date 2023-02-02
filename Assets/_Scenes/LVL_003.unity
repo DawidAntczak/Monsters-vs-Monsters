@@ -343,13 +343,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rows: 5
   columns: 9
-  maxDefenders: 5
+  maxDefenders: 4
   avaibleDefenders:
   - {fileID: 114643604922866126, guid: ef8f0d7784579f940a95458a0e470f45, type: 3}
   - {fileID: 114122771234898328, guid: 02e36efe8c619bd4b992e2ef8d9a7786, type: 3}
   - {fileID: 114534265635624098, guid: a8ec36ac507f403458a2824cedea3c1e, type: 3}
   - {fileID: 114663218649780754, guid: d684e2d9244c4744aae7dd22a4067757, type: 3}
-  - {fileID: 114003025130092628, guid: 3afa401c4b251f641b7abfd8d4fec722, type: 3}
   chooseDefenderCanvas: {fileID: 1216633242216268, guid: a45285a3116581e4bb6baa6df47756b0,
     type: 3}
   levelCanvas: {fileID: 1142292463338944, guid: 2a5e77c6b8fec5841ac6f4e15df0408a,

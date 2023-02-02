@@ -23,16 +23,16 @@ public class SceneStack : MonoBehaviour
 
     private void Start()
     {
-        SceneManager.activeSceneChanged += SceneManager_activeSceneChanged;
+        SceneManager.sceneLoaded += SceneManager_sceneLoaded;
+    }
+
+    private void SceneManager_sceneLoaded(Scene arg0, LoadSceneMode arg1)
+    {
+        _loadedScenes.Add(arg0.buildIndex);
     }
 
     public int GetPreviousSceneIndex()
     {
         return _loadedScenes[_loadedScenes.Count - 2];
-    }
-
-    private void SceneManager_activeSceneChanged(Scene arg0, Scene arg1)
-    {
-        _loadedScenes.Add(arg1.buildIndex);
     }
 }

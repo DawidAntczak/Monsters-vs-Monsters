@@ -4,6 +4,7 @@
     {
         Composed,
         ComposedDynamic,
-        Generated
+        Generated,
+        GeneratedStatic
     }
 }

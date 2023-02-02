@@ -1,4 +1,5 @@
 ﻿using MusicInterface;
+using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,24 +15,30 @@ public class AutoMusicSystem : MonoBehaviour
     [SerializeField] private bool _reset = false;
     [SerializeField] private float _temperature = 1.5f;
     [SerializeField] private float _requestedTimeLength = 5f;
+    [SerializeField] private bool _interpolate = true;
+    [SerializeField][Range(0, 127)] private int _defaultVelocity = 127;
     [SerializeField][Range(-12, 12)] private int _keyAdjustmentInSemitones = 0;
     [SerializeField] [Range(0, 127)] private int _instrument = 1;
     
     private MusicGenerationModel _musicGenerationModel;
     private MusicPlayer _musicPlayer;
 
+    private Task _musicPlayerBackgroundTask;
     private bool _playing = false;
+
+    private GameStateToControlsConverter _gameStateToControlsConverter;
 
     public static AutoMusicSystem Instance { get; set; }
 
-    public void StartPlaying()
+    public void StartPlaying(GameStateToControlsConverter gameStateToControlsConverter = null)
     {
         if (_playing)
             return;
 
         Debug.Log("Starting music player in background");
+        _gameStateToControlsConverter = gameStateToControlsConverter == null ? new GameStateToControlsConverter(_interpolate) : gameStateToControlsConverter;
         _musicGenerationModel.Connect(Instance._musicPlayer.EnqueueAndRequestNext);
-        _musicPlayer.StartInBackground();
+        _musicPlayerBackgroundTask = _musicPlayer.StartInBackground();
         _playing = true;
     }
 
@@ -41,8 +48,10 @@ public class AutoMusicSystem : MonoBehaviour
             return;
 
         Debug.Log("Stopping music player");
+        _gameStateToControlsConverter = null;
         _musicPlayer.Stop();
         _musicGenerationModel.Disconnect();
+        _musicPlayerBackgroundTask.GetAwaiter().GetResult();
         _playing = false;
     }
 
@@ -98,8 +107,8 @@ public class AutoMusicSystem : MonoBehaviour
         }
 
         var gameState = GameStateCalculator.Instance.CalculateGameState();
-        var controlData = GameStateToControlsConverter.Convert(gameState, _temperature, _requestedTimeLength);
-        return controlData;
+        var controLData = _gameStateToControlsConverter.Convert(gameState, _temperature, _requestedTimeLength);
+        return controLData;
     }
 
     private PlayingParams CollectPlayingParams()
@@ -107,6 +116,7 @@ public class AutoMusicSystem : MonoBehaviour
         return new PlayingParams
         {
             KeyAdjustmentInSemitones = _keyAdjustmentInSemitones,
+            Velocity = _defaultVelocity,
             Instrument = _instrument
         };
     }

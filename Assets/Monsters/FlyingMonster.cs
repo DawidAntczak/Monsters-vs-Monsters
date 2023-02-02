@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FlyingMonster : MonoBehaviour
 {
@@ -36,7 +34,7 @@ public class FlyingMonster : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.GetComponent<Fence>() || collision.GetComponent<Wormhole>())
             { return; }
@@ -59,7 +57,7 @@ public class FlyingMonster : MonoBehaviour
         {
             currentTarget = null;
         }
-    }
+    }*/
 
     public void AnimAttack()
     {

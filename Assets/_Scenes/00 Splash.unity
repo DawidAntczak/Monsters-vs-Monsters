@@ -546,11 +546,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1704668364039362323, guid: a26c5ae6c066c5c4ba55a293d96d1772,
-        type: 3}
-      propertyPath: m_Pitch
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6968397912199315349, guid: a26c5ae6c066c5c4ba55a293d96d1772,
         type: 3}
       propertyPath: m_RootOrder
@@ -608,17 +603,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
         type: 3}
-      propertyPath: testGroupsContainer.m_values.Array.data[0]._composedMusicClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 40fb8a436e97ce749b8e7fdf623e47da, type: 3}
+      propertyPath: _testGroupData._composedMidiDirPath
+      value: MUSIC/Experiment
+      objectReference: {fileID: 0}
     - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
         type: 3}
-      propertyPath: testGroupsContainer.m_values.Array.data[0]._musicTypeOrder.Array.data[1]
+      propertyPath: _testGroupData._composedMidiForStatic
+      value: Zelda_A_Link_Between_Worlds__-_Ra.mid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._composedMidiForDynamic
+      value: Zombie_Panic_trimmed.mid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._musicTypeOrder.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._composedMidiNames.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._musicTypeOrder.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._musicTypeOrder.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._musicTypeOrder.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._musicTypeOrder.Array.data[3]
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
         type: 3}
+      propertyPath: _testGroupData._composedMidiNames.Array.data[0]
+      value: Zelda_A_Link_Between_Worlds__-_Ra.mid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: _testGroupData._composedMidiNames.Array.data[1]
+      value: Zombie_Panic_trimmed.mid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: testGroupsContainer.m_values.Array.data[0]._composedMusicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 47a2d3152496e764387cce39ed0c4c14, type: 3}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: testGroupsContainer.m_values.Array.data[0]._musicTypeOrder.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: testGroupsContainer.m_values.Array.data[0]._musicTypeOrder.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: testGroupsContainer.m_values.Array.data[0]._musicTypeOrder.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
       propertyPath: testGroupsContainer.m_values.Array.data[0]._musicTypeOrder.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582938439481997472, guid: a26c5ae6c066c5c4ba55a293d96d1772,
+        type: 3}
+      propertyPath: testGroupsContainer.m_values.Array.data[0]._musicTypeOrder.Array.data[3]
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9189182717319630588, guid: a26c5ae6c066c5c4ba55a293d96d1772,
@@ -702,8 +767,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
         type: 3}
+      propertyPath: _interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
       propertyPath: _temperature
-      value: 1.5
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _defaultVelocity
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
         type: 3}
@@ -714,6 +789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _gameStateCalculator
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
+        type: 3}
+      propertyPath: _requestedTimeLength
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 269944465199491279, guid: e8543c32287dae8439b4e0a06dd390a1,
         type: 3}

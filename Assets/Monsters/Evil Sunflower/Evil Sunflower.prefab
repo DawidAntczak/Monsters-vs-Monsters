@@ -216,8 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c6d1c21567d3b419fbb402cc761bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minInterval: 12
-  maxInterval: 15
+  minInterval: 10
+  maxInterval: 13
   dispersion: 20
   collectableSun: {fileID: 114550845012304148, guid: 291ed751018f0f847b5089af155ff197,
     type: 3}

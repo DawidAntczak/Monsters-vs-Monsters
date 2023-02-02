@@ -56,84 +56,119 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 100
+    intParameter: 300
     messageOptions: 0
-  - time: 33
+  - time: 27
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 201
     messageOptions: 0
-  - time: 44
+  - time: 34
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 301
+    messageOptions: 0
+  - time: 51
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 202
     messageOptions: 0
   - time: 55
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 1
+    intParameter: 101
     messageOptions: 0
   - time: 60
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 402
+    intParameter: 300
     messageOptions: 0
-  - time: 60
+  - time: 65
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 201
+    messageOptions: 0
+  - time: 70
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 73
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 400
+    messageOptions: 0
+  - time: 83
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 83
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 201
+    messageOptions: 0
+  - time: 86
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 200
     messageOptions: 0
-  - time: 60
+  - time: 88
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 91
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 201
+    messageOptions: 0
+  - time: 91
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 93
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 400
     messageOptions: 0
-  - time: 70
+  - time: 93
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 100
-    messageOptions: 0
-  - time: 70
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 400
-    messageOptions: 0
-  - time: 80
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 101
-    messageOptions: 0
-  - time: 80
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 301
-    messageOptions: 0
-  - time: 90
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 100
+    intParameter: 300
     messageOptions: 0
   - time: 100
     functionName: AnimSpawn
@@ -142,96 +177,61 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 100
+  - time: 102
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 302
+    messageOptions: 0
+  - time: 103
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 2
     messageOptions: 0
-  - time: 105
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 302
-    messageOptions: 0
   - time: 107
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 300
+    intParameter: 200
     messageOptions: 0
   - time: 110
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 200
-    messageOptions: 0
-  - time: 115
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 400
+    intParameter: 300
     messageOptions: 0
   - time: 118
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 302
-    messageOptions: 0
-  - time: 120
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 120
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 1
-    messageOptions: 0
-  - time: 122
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
     intParameter: 300
     messageOptions: 0
-  - time: 125
+  - time: 124
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 0
+    intParameter: 400
     messageOptions: 0
-  - time: 129
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 100
-    messageOptions: 0
-  - time: 134
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 101
-    messageOptions: 0
-  - time: 137
+  - time: 132
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 200
+    messageOptions: 0
+  - time: 138
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 100
     messageOptions: 0
   - time: 140
     functionName: AnimSpawn
@@ -240,14 +240,77 @@ AnimationClip:
     floatParameter: 0
     intParameter: 101
     messageOptions: 0
-  - time: 145
+  - time: 143
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 301
+    intParameter: 200
+    messageOptions: 0
+  - time: 146
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 101
+    messageOptions: 0
+  - time: 148
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 2
+    messageOptions: 0
+  - time: 148
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 201
     messageOptions: 0
   - time: 150
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 150
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 150
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 302
+    messageOptions: 0
+  - time: 150
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 202
+    messageOptions: 0
+  - time: 150
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 102
+    messageOptions: 0
+  - time: 152
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 101
+    messageOptions: 0
+  - time: 152
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -259,35 +322,98 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 100
+    intParameter: 200
     messageOptions: 0
-  - time: 158
+  - time: 155
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 102
     messageOptions: 0
-  - time: 162
+  - time: 157
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 101
+    messageOptions: 0
+  - time: 159
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 302
     messageOptions: 0
-  - time: 166
+  - time: 159
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 300
+    intParameter: 0
+    messageOptions: 0
+  - time: 162
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 201
+    messageOptions: 0
+  - time: 163
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 2
+    messageOptions: 0
+  - time: 165
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 200
+    messageOptions: 0
+  - time: 168
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 100
     messageOptions: 0
   - time: 170
     functionName: AnimSpawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 300
+    intParameter: 301
+    messageOptions: 0
+  - time: 170
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 201
+    messageOptions: 0
+  - time: 170
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 170
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 401
+    messageOptions: 0
+  - time: 170
+    functionName: AnimSpawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 101
     messageOptions: 0
   - time: 172
     functionName: NotifyEndOfSpawning

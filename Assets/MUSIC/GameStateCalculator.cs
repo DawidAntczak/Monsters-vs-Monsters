@@ -128,7 +128,7 @@ public class GameStateCalculator : MonoBehaviour
         {
             _spawningAnimator = FindObjectOfType<SpawningSystem>().GetComponent<Animator>();
         }
-        var levelProgess = _spawningAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        var levelProgess = Mathf.Clamp01(_spawningAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime);
 
         return new GameState
         {
