@@ -45,15 +45,14 @@ namespace Assets.MUSIC.Experiment
                 { "LVL_101", () => PlayMusicForIndex(0) },
                 { "LVL_102", () => PlayMusicForIndex(1) },
                 { "LVL_103", () => PlayMusicForIndex(2) },
-                { "LVL_104", () => PlayMusicForIndex(3) },
-                { "LVL_201", () => PlayMusicForIndex(3) },
+                { "LVL_104", () => PlayMusicForIndex(3) }
             };
 
-            var path = Path.Combine(Application.dataPath, _testGroupData._composedMidiDirPath, _testGroupData._composedMidiForStatic);
+            var path = Path.Combine(Application.streamingAssetsPath, _testGroupData._composedMidiForStatic);
             _composedMusicForStatic = MidiFile.Read(Path.Combine(path));
             _composedMusicForStatic.OverrideInstrument(_composedInstrument);
 
-            path = Path.Combine(Application.dataPath, _testGroupData._composedMidiDirPath, _testGroupData._composedMidiForDynamic);
+            path = Path.Combine(Application.streamingAssetsPath, _testGroupData._composedMidiForDynamic);
             _composedMusicForDynamic = MidiFile.Read(Path.Combine(path));
             _composedMusicForDynamic.OverrideInstrument(_composedInstrument);
 

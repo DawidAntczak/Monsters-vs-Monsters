@@ -107,41 +107,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 50
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 300
-    messageOptions: 0
-  - time: 50
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 400
-    messageOptions: 0
-  - time: 50
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 200
-    messageOptions: 0
-  - time: 50
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 50
-    functionName: AnimSpawn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 100
-    messageOptions: 0
   - time: 55
     functionName: AnimSpawn
     data: 
