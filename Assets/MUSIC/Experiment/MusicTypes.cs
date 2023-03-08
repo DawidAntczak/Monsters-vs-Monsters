@@ -2,6 +2,7 @@
 {
     public enum MusicTypes
     {
+        NoMusic,
         Composed,
         ComposedDynamic,
         Generated,

@@ -1,10 +1,12 @@
 ﻿using Melanchall.DryWetMidi.Core;
 using Melanchall.DryWetMidi.Multimedia;
 using MusicInterface;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,16 +16,13 @@ namespace Assets.MUSIC.Experiment
     {
         public static ExperimentController Instance { get; private set; }
 
-        [SerializeField] private TestGroupData _testGroupData;
-        [SerializeField] [Range(0, 127)] private int _composedInstrument = 3;
-
-        private Dictionary<string, Action> _levelNameToMusicIndex;
-
-        private MidiFile _composedMusicForStatic;
-        private MidiFile _composedMusicForDynamic;
+        private ExperimentConfiguration _experimentConfiguration;
+        [SerializeField] [Range(0, 127)] private int _instrument = 3;
 
         private OutputDevice _outputDevice;
         private Playback _playback;
+
+        private readonly Dictionary<string, MidiFile> _midis = new();
 
         void Awake()
         {
@@ -37,38 +36,70 @@ namespace Assets.MUSIC.Experiment
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
             }
-            _levelNameToMusicIndex = new()
-            {
-                { "LVL_001", PlayNoMusic },
-                { "LVL_002", PlayNoMusic },
-                { "LVL_003", PlayNoMusic },
-                { "LVL_101", () => PlayMusicForIndex(0) },
-                { "LVL_102", () => PlayMusicForIndex(1) },
-                { "LVL_103", () => PlayMusicForIndex(2) },
-                { "LVL_104", () => PlayMusicForIndex(3) }
-            };
-
-            var path = Path.Combine(Application.streamingAssetsPath, _testGroupData._composedMidiForStatic);
-            _composedMusicForStatic = MidiFile.Read(Path.Combine(path));
-            _composedMusicForStatic.OverrideInstrument(_composedInstrument);
-
-            path = Path.Combine(Application.streamingAssetsPath, _testGroupData._composedMidiForDynamic);
-            _composedMusicForDynamic = MidiFile.Read(Path.Combine(path));
-            _composedMusicForDynamic.OverrideInstrument(_composedInstrument);
-
-            SceneManager.sceneLoaded += SceneManager_sceneLoaded;
         }
 
-        private void PlayMusicForIndex(int index)
+        public void StartExperiment()
         {
-            var musicType = _testGroupData.MusicTypeOrder[index];
+            try
+            {
+                try
+                {
+                    var configJson = File.ReadAllText(Path.Combine(Application.streamingAssetsPath, "ExperimentConfiguration.json"));
+                    _experimentConfiguration = JsonConvert.DeserializeObject<ExperimentConfiguration>(configJson);
+                }
+                catch (Exception e)
+                {
+                    throw new Exception($"Could not load configuration!{Environment.NewLine}{e.Message}");
+                }
+
+
+                foreach (var levelMusicType in _experimentConfiguration.LevelNameToMusicType.Where(x => x.Value == MusicTypes.Composed || x.Value == MusicTypes.ComposedDynamic))
+                {
+                    _experimentConfiguration.LevelNameToMidiClipName.TryGetValue(levelMusicType.Key, out var midiClipName);
+                    if (midiClipName == null)
+                        throw new Exception($"No MIDI set for level {levelMusicType.Key}!");
+                }
+
+                _midis.Clear();
+                foreach (var midiClipName in _experimentConfiguration.LevelNameToMidiClipName.Values.Where(x => !string.IsNullOrEmpty(x)))
+                {
+                    MidiFile midi;
+                    try
+                    {
+                        midi = LoadMidi(midiClipName);
+                    }
+                    catch (Exception e)
+                    {
+                        throw new Exception($"Could not load MIDI {midiClipName}!{Environment.NewLine}{e.Message}");
+                    }
+                    _midis.Add(midiClipName, midi);
+                }
+
+                SceneManager.sceneLoaded += SceneManager_sceneLoaded;
+
+                SceneManager.LoadScene("LVL_001");
+            }
+            catch (Exception e)
+            {
+                ErrorPanel.Instance?.Show(e);
+            }
+        }
+
+        private void PlayMusicForScene(string sceneName)
+        {
+            if (!_experimentConfiguration.LevelNameToMusicType.TryGetValue(sceneName, out var musicType))
+            {
+                return;
+            }
+            _experimentConfiguration.LevelNameToMidiClipName.TryGetValue(sceneName, out var musicMidiName);
+
             switch (musicType)
             {
                 case MusicTypes.Composed:
-                    PlayComposedStaticMusic();
+                    PlayComposedStaticMusic(_midis[musicMidiName]);
                     break;
                 case MusicTypes.ComposedDynamic:
-                    PlayComposedDynamicMusic();
+                    PlayComposedDynamicMusic(_midis[musicMidiName]);
                     break;
                 case MusicTypes.Generated:
                     PlayGeneratedMusic();
@@ -79,31 +110,35 @@ namespace Assets.MUSIC.Experiment
             }
         }
 
-        private void PlayNoMusic()
+        private MidiFile LoadMidi(string name)
         {
+            var path = Path.Combine(Application.streamingAssetsPath, name);
+            var midi = MidiFile.Read(Path.Combine(path));
+            midi.OverrideInstrument(_instrument);
+            return midi;
         }
 
-        private void PlayComposedStaticMusic()
+        private void PlayComposedStaticMusic(MidiFile midi)
         {
             _outputDevice = OutputDevice.GetByName("Microsoft GS Wavetable Synth");
 
-            _composedMusicForStatic.OverrideVelocity(95);
-            _playback = _composedMusicForStatic.GetPlayback(_outputDevice);
+            midi.OverrideVelocity(95);
+            _playback = midi.GetPlayback(_outputDevice);
 
             _playback.Loop = true;
             _playback.Start();
         }
 
-        private void PlayComposedDynamicMusic()
+        private void PlayComposedDynamicMusic(MidiFile midi)
         {
             _outputDevice = OutputDevice.GetByName("Microsoft GS Wavetable Synth");
 
-            _composedMusicForDynamic.OverrideVelocity(63);
-            _playback = _composedMusicForDynamic.GetPlayback(_outputDevice);
+            midi.OverrideVelocity(63);
+            _playback = midi.GetPlayback(_outputDevice);
             _playback.Speed = 0.8;
 
             _playback.Start();
-            StartCoroutine(AdjustDynamicMusic(_composedMusicForDynamic, _playback));
+            StartCoroutine(AdjustDynamicMusic(midi, _playback));
         }
 
 
@@ -170,10 +205,7 @@ namespace Assets.MUSIC.Experiment
 
             AutoMusicSystem.Instance.StopPlaying();
 
-            if (_levelNameToMusicIndex.TryGetValue(arg0.name, out var action))
-            {
-                action();
-            }
+            PlayMusicForScene(arg0.name);
         }
     }
 }

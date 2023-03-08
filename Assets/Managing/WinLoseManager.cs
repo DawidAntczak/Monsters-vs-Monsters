@@ -39,7 +39,7 @@ public class WinLoseManager : MonoBehaviour
         PreWonEvent?.Invoke(this);
         WonEvent?.Invoke(this);
 
-        StartCoroutine(LoadLevel());
+        //StartCoroutine(LoadLevel());
     }
 
     private IEnumerator LoadLevel()

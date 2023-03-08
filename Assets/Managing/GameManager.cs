@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.MUSIC.Experiment;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -6,6 +7,11 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void Start()
+    {
+        ExperimentController.Instance.StartExperiment();
     }
 
     public void LoadLevel(string name)

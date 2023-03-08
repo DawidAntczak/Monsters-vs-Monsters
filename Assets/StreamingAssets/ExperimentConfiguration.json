@@ -1,0 +1,23 @@
+{
+  "levelNameToMusicType": 
+  {
+	  "LVL_001": "NoMusic",
+	  "LVL_002": "NoMusic",
+	  "LVL_003": "NoMusic",
+	  "LVL_101": "Composed",
+	  "LVL_102": "ComposedDynamic",
+	  "LVL_103": "Generated",
+	  "LVL_104": "GeneratedStatic"
+
+  },
+  "levelNameToMidiClipName":
+  {
+	  "LVL_001": null,
+	  "LVL_002": null,
+	  "LVL_003": null,
+	  "LVL_101": "Zelda_A_Link_Between_Worlds__-_Ra.mid",
+	  "LVL_102": "Zombie_Panic_trimmed.mid",
+	  "LVL_103": null,
+	  "LVL_104": null
+  }
+}

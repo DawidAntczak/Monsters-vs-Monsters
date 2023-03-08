@@ -28,9 +28,9 @@ public class GameStateToControlsConverter
         var controlData = new ControlData
         {
             Mode = Vector.OneHot(Controls.Modes.Count, 0),
-            AttackDensity = Vector.OneHot(Controls.AttackDensities.Count(), 1),
-            AvgPitchesPlayed = Vector.OneHot(Controls.AvgPitchesPlayed.Count(), 2),
-            Entropy = Vector.OneHot(Controls.AvgPitchesPlayed.Count(), 2),
+            AttackDensity = Vector.NormalizedNormalDistribution(Controls.AttackDensities.Count(), 1, 1),
+            AvgPitchesPlayed = Vector.NormalizedNormalDistribution(Controls.AvgPitchesPlayed.Count(), Controls.AvgPitchesPlayed.Count() - 1, 1),
+            Entropy = Vector.EqualDistribution(Controls.Entropies.Count()),
             Reset = gameState.IsInitState,
             Temperature = temperature,
             RequestedTimeLength = requestedTimeLength
@@ -44,9 +44,9 @@ public class GameStateToControlsConverter
         var controlData = new ControlData
         {
             Mode = Vector.OneHot(Controls.Modes.Count, 1),
-            AttackDensity = Vector.OneHot(Controls.AttackDensities.Count(), 1),
-            AvgPitchesPlayed = Vector.OneHot(Controls.AvgPitchesPlayed.Count(), 2),
-            Entropy = Vector.OneHot(Controls.AvgPitchesPlayed.Count(), 2),
+            AttackDensity = Vector.NormalizedNormalDistribution(Controls.AttackDensities.Count(), 1, 1),
+            AvgPitchesPlayed = Vector.NormalizedNormalDistribution(Controls.AvgPitchesPlayed.Count(), Controls.AvgPitchesPlayed.Count() - 1, 1),
+            Entropy = Vector.EqualDistribution(Controls.Entropies.Count()),
             Reset = gameState.IsInitState,
             Temperature = temperature,
             RequestedTimeLength = requestedTimeLength
@@ -60,9 +60,9 @@ public class GameStateToControlsConverter
         var controlData = new ControlData
         {
             Mode = Vector.OneHot(Controls.Modes.Count, 0),
-            AttackDensity = Vector.OneHot(Controls.AttackDensities.Count(), 0),
-            AvgPitchesPlayed = Vector.OneHot(Controls.AvgPitchesPlayed.Count(), 0),
-            Entropy = Vector.OneHot(Controls.AvgPitchesPlayed.Count(), 0),
+            AttackDensity = Vector.NormalizedNormalDistribution(Controls.AttackDensities.Count(), 0, 1),
+            AvgPitchesPlayed = Vector.NormalizedNormalDistribution(Controls.AvgPitchesPlayed.Count(), 0, 1),
+            Entropy = Vector.NormalizedNormalDistribution(Controls.AvgPitchesPlayed.Count(), 0, 1),
             Reset = gameState.IsInitState,
             Temperature = temperature,
             RequestedTimeLength = requestedTimeLength
