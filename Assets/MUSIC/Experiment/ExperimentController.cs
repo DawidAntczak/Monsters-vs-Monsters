@@ -63,16 +63,19 @@ namespace Assets.MUSIC.Experiment
                 _midis.Clear();
                 foreach (var midiClipName in _experimentConfiguration.LevelNameToMidiClipName.Values.Where(x => !string.IsNullOrEmpty(x)))
                 {
-                    MidiFile midi;
-                    try
+                    if (!_midis.ContainsKey(midiClipName))
                     {
-                        midi = LoadMidi(midiClipName);
+                        MidiFile midi;
+                        try
+                        {
+                            midi = LoadMidi(midiClipName);
+                        }
+                        catch (Exception e)
+                        {
+                            throw new Exception($"Could not load MIDI {midiClipName}!{Environment.NewLine}{e.Message}");
+                        }
+                        _midis.Add(midiClipName, midi);
                     }
-                    catch (Exception e)
-                    {
-                        throw new Exception($"Could not load MIDI {midiClipName}!{Environment.NewLine}{e.Message}");
-                    }
-                    _midis.Add(midiClipName, midi);
                 }
 
                 SceneManager.sceneLoaded += SceneManager_sceneLoaded;
